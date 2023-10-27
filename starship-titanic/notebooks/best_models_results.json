@@ -1,0 +1,298 @@
+[
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8137740841809311,
+        "timestamp": "2023-10-25 20:49:41"
+    },
+    {
+        "classifier_name": "Extra Trees",
+        "best_parameters": {
+            "classifier__criterion": "entropy",
+            "classifier__max_depth": null,
+            "classifier__max_features": null,
+            "classifier__min_samples_leaf": 16,
+            "classifier__min_samples_split": 3,
+            "classifier__n_estimators": 162,
+            "classifier__random_state": 42
+        },
+        "best_accuracy": 0.8103202265773588,
+        "timestamp": "2023-10-25 20:52:00"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.8,
+            "classifier__learning_rate": 0.2,
+            "classifier__max_depth": 3,
+            "classifier__min_child_samples": 30,
+            "classifier__n_estimators": 100,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.5,
+            "classifier__reg_lambda": 0.0,
+            "classifier__subsample": 0.8
+        },
+        "best_accuracy": 0.8127660630116595,
+        "timestamp": "2023-10-25 21:03:05"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.75,
+            "classifier__learning_rate": 0.3,
+            "classifier__max_depth": 3,
+            "classifier__min_child_samples": 40,
+            "classifier__n_estimators": 100,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.5,
+            "classifier__reg_lambda": 7,
+            "classifier__subsample": 0.4
+        },
+        "best_accuracy": 0.8114735797568843,
+        "timestamp": "2023-10-25 21:08:28"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.75,
+            "classifier__learning_rate": 0.2,
+            "classifier__max_depth": 3,
+            "classifier__min_child_samples": 40,
+            "classifier__n_estimators": 100,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.5,
+            "classifier__reg_lambda": 0.7,
+            "classifier__subsample": 0.4
+        },
+        "best_accuracy": 0.8116166377243033,
+        "timestamp": "2023-10-25 21:15:04"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.4,
+            "classifier__learning_rate": 0.09,
+            "classifier__max_depth": 3,
+            "classifier__min_child_samples": 35,
+            "classifier__n_estimators": 100,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.7,
+            "classifier__reg_lambda": 0.7,
+            "classifier__subsample": 0.4
+        },
+        "best_accuracy": 0.808310799636153,
+        "timestamp": "2023-10-25 21:23:30"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.4,
+            "classifier__learning_rate": 0.08000000000000002,
+            "classifier__max_depth": 4,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 105,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.7999999999999999,
+            "classifier__reg_lambda": 0.7,
+            "classifier__subsample": 0.3
+        },
+        "best_accuracy": 0.8111847763168776,
+        "timestamp": "2023-10-26 05:41:25"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.4,
+            "classifier__learning_rate": 0.08000000000000002,
+            "classifier__max_depth": 4,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 105,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.799999,
+            "classifier__reg_lambda": 0.7,
+            "classifier__subsample": 0.3
+        },
+        "best_accuracy": 0.8111847763168776,
+        "timestamp": "2023-10-26 07:12:59"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.4,
+            "classifier__learning_rate": 0.08000000000000002,
+            "classifier__max_depth": 4,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 105,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.799999,
+            "classifier__reg_lambda": 0.7,
+            "classifier__subsample": 0.3
+        },
+        "best_accuracy": 0.8111847763168776,
+        "timestamp": "2023-10-26 07:17:02"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.4,
+            "classifier__learning_rate": 0.08000000000000002,
+            "classifier__max_depth": 4,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 105,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.799999,
+            "classifier__reg_lambda": 0.7,
+            "classifier__subsample": 0.31
+        },
+        "best_accuracy": 0.8111847763168776,
+        "timestamp": "2023-10-26 07:18:11"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8153564045315471,
+        "timestamp": "2023-10-26 07:29:49"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8159313239063921,
+        "timestamp": "2023-10-26 17:05:05"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8142036715455221,
+        "timestamp": "2023-10-26 17:09:10"
+    },
+    {
+        "classifier_name": "K-Nearest Neighbors",
+        "best_parameters": {
+            "classifier__n_neighbors": 9,
+            "classifier__p": 1,
+            "classifier__weights": "uniform"
+        },
+        "best_accuracy": 0.7896192011907716,
+        "timestamp": "2023-10-26 17:11:40"
+    },
+    {
+        "classifier_name": "K-Nearest Neighbors",
+        "best_parameters": {
+            "classifier__n_neighbors": 15,
+            "classifier__p": 2,
+            "classifier__weights": "uniform"
+        },
+        "best_accuracy": 0.7965192673447449,
+        "timestamp": "2023-10-26 17:12:53"
+    },
+    {
+        "classifier_name": "K-Nearest Neighbors",
+        "best_parameters": {
+            "classifier__algorithm": "auto",
+            "classifier__leaf_size": 10,
+            "classifier__metric": "manhattan",
+            "classifier__n_neighbors": 20,
+            "classifier__p": 1,
+            "classifier__weights": "distance"
+        },
+        "best_accuracy": 0.7973844372777641,
+        "timestamp": "2023-10-26 17:25:10"
+    },
+    {
+        "classifier_name": "K-Nearest Neighbors",
+        "best_parameters": {
+            "classifier__algorithm": "auto",
+            "classifier__leaf_size": 1,
+            "classifier__metric": "manhattan",
+            "classifier__n_neighbors": 20,
+            "classifier__p": 1,
+            "classifier__weights": "distance"
+        },
+        "best_accuracy": 0.7973844372777641,
+        "timestamp": "2023-10-26 17:28:17"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.810609650210866,
+        "timestamp": "2023-10-26 17:35:57"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.812335028528901,
+        "timestamp": "2023-10-26 17:41:37"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8091714214835027,
+        "timestamp": "2023-10-26 17:50:42"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8101782022657735,
+        "timestamp": "2023-10-26 17:55:16"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.8085962953774912,
+        "timestamp": "2023-10-26 18:00:42"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_accuracy": 0.812335028528901,
+        "timestamp": "2023-10-26 18:04:40"
+    },
+    {
+        "classifier_name": "Perceptron",
+        "best_parameters": {
+            "classifier__alpha": 0.0001,
+            "classifier__penalty": "l1",
+            "classifier__random_state": 42
+        },
+        "best_accuracy": 0.7398443314314066,
+        "timestamp": "2023-10-26 18:08:25"
+    },
+    {
+        "classifier_name": "Decision Tree",
+        "best_parameters": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 10,
+            "classifier__max_features": "sqrt",
+            "classifier__min_samples_leaf": 2,
+            "classifier__min_samples_split": 10,
+            "classifier__random_state": 42
+        },
+        "best_accuracy": 0.7702042503927892,
+        "timestamp": "2023-10-26 18:14:05"
+    },
+    {
+        "classifier_name": "Decision Tree",
+        "best_parameters": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 10,
+            "classifier__max_features": 0.5,
+            "classifier__min_samples_leaf": 1,
+            "classifier__min_samples_split": 2,
+            "classifier__random_state": 42
+        },
+        "best_accuracy": 0.7775401058463574,
+        "timestamp": "2023-10-26 18:41:13"
+    },
+    {
+        "classifier_name": "Decision Tree",
+        "best_parameters": {
+            "classifier__criterion": "gini",
+            "classifier__max_depth": 11,
+            "classifier__min_samples_leaf": 1,
+            "classifier__min_samples_split": 2,
+            "classifier__random_state": 42
+        },
+        "best_accuracy": 0.773078847267014,
+        "timestamp": "2023-10-26 18:43:30"
+    }
+]
