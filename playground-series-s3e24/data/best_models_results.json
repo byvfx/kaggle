@@ -194,5 +194,50 @@
         "best_cross_val_roc_auc": 0.8602010724546313,
         "roc_auc_on_validation": 0.8577390206645634,
         "timestamp": "2023-10-27 00:13:12"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__learning_rate": 0.04,
+            "classifier__max_depth": 45,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 639,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.7,
+            "classifier__reg_lambda": 0.7
+        },
+        "best_cross_val_roc_auc": 0.856248927163765,
+        "roc_auc_on_validation": 0.8573409502537898,
+        "timestamp": "2023-11-11 21:39:42"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__learning_rate": 0.04,
+            "classifier__max_depth": 45,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 650,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.7,
+            "classifier__reg_lambda": 0.7
+        },
+        "best_cross_val_roc_auc": 0.8563106997204507,
+        "roc_auc_on_validation": 0.8573634929888521,
+        "timestamp": "2023-11-11 21:45:54"
+    },
+    {
+        "classifier_name": "LightGBM",
+        "best_parameters": {
+            "classifier__learning_rate": 0.04,
+            "classifier__max_depth": 45,
+            "classifier__min_child_samples": 36,
+            "classifier__n_estimators": 670,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.7,
+            "classifier__reg_lambda": 0.7
+        },
+        "best_cross_val_roc_auc": 0.8563998302950984,
+        "roc_auc_on_validation": 0.857487336435053,
+        "timestamp": "2023-11-11 21:51:21"
     }
 ]
