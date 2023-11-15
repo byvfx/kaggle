@@ -239,5 +239,102 @@
         "best_cross_val_roc_auc": 0.8563998302950984,
         "roc_auc_on_validation": 0.857487336435053,
         "timestamp": "2023-11-11 21:51:21"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_cross_val_roc_auc": 0.8444769901040117,
+        "roc_auc_on_validation": 0.847024921509133,
+        "timestamp": "2023-11-12 03:08:28"
+    },
+    {
+        "classifier_name": "XGBoost",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.8,
+            "classifier__learning_rate": 0.09,
+            "classifier__max_depth": 3,
+            "classifier__min_child_weight": 2,
+            "classifier__n_estimators": 97,
+            "classifier__random_state": 42,
+            "classifier__reg_alpha": 0.0,
+            "classifier__reg_lambda": 0.0,
+            "classifier__subsample": 0.8
+        },
+        "best_cross_val_roc_auc": 0.8442645075920098,
+        "roc_auc_on_validation": 0.8468236466961568,
+        "timestamp": "2023-11-12 15:59:33"
+    },
+    {
+        "classifier_name": "CatBoost",
+        "best_parameters": {
+            "classifier__eval_metric": "AUC",
+            "classifier__iterations": 200,
+            "classifier__learning_rate": 0.05,
+            "classifier__random_seed": 42,
+            "classifier__verbose": false
+        },
+        "best_cross_val_roc_auc": 0.8483690910954692,
+        "roc_auc_on_validation": 0.8506148376331669,
+        "timestamp": "2023-11-12 21:59:00"
+    },
+    {
+        "classifier_name": "CatBoost",
+        "best_parameters": {
+            "classifier__eval_metric": "AUC",
+            "classifier__iterations": 200,
+            "classifier__learning_rate": 0.05,
+            "classifier__random_seed": 42,
+            "classifier__task_type": "GPU",
+            "classifier__verbose": false
+        },
+        "best_cross_val_roc_auc": 0.8493696706621522,
+        "roc_auc_on_validation": 0.8516756947859835,
+        "timestamp": "2023-11-12 22:00:50"
+    },
+    {
+        "classifier_name": "CatBoost",
+        "best_parameters": {
+            "classifier__iterations": 200,
+            "classifier__learning_rate": 0.05,
+            "classifier__random_seed": 42,
+            "classifier__task_type": "GPU",
+            "classifier__verbose": false
+        },
+        "best_cross_val_roc_auc": 0.8493732240009256,
+        "roc_auc_on_validation": 0.8515788096904694,
+        "timestamp": "2023-11-12 22:02:57"
+    },
+    {
+        "classifier_name": "XGBoost",
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.8,
+            "classifier__learning_rate": 0.09000000000000001,
+            "classifier__max_depth": 3,
+            "classifier__n_estimators": 97,
+            "classifier__random_state": 42,
+            "classifier__subsample": 0.8
+        },
+        "best_cross_val_roc_auc": 0.8440841471120638,
+        "roc_auc_on_validation": 0.8468281750392045,
+        "timestamp": "2023-11-13 00:10:07"
+    },
+    {
+        "classifier_name": "CatBoost",
+        "best_parameters": {
+            "classifier__learning_rate": 0.05,
+            "classifier__loss_function": "Logloss",
+            "classifier__random_seed": 42,
+            "classifier__verbose": false
+        },
+        "best_cross_val_roc_auc": 0.855641604408867,
+        "roc_auc_on_validation": 0.8570487167833322,
+        "timestamp": "2023-11-13 00:13:13"
+    },
+    {
+        "classifier_name": "Stacking Classifier",
+        "best_parameters": {},
+        "best_cross_val_roc_auc": 0.8538681634961265,
+        "roc_auc_on_validation": 0.8549443185095837,
+        "timestamp": "2023-11-13 05:06:39"
     }
 ]
