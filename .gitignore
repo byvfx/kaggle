@@ -1,3 +1,4 @@
 *.tmp
 *.tsv
 *.tfevents
+hms-harmful-brain-activity-classification/data/

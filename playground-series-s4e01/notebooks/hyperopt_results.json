@@ -1,0 +1,16 @@
+{
+    "lgbm_max_depth": 4.0,
+    "lgbm_num_leaves": 82.0,
+    "lgbm_subsample": 0.6732715861928933,
+    "mlp_alpha": 0.0002490647937641685,
+    "mlp_hidden_layer_sizes": 1,
+    "mlp_learning_rate_init": 0.0036823621508942075,
+    "xgb_colsample_bytree": 0.8586600870635352,
+    "xgb_gamma": 0.00238805023045014,
+    "xgb_learning_rate": 0.1867817544125639,
+    "xgb_max_depth": 5.0,
+    "xgb_min_child_weight": 3,
+    "xgb_n_estimators": 177.0,
+    "xgb_reg_alpha": 8.941467415976353,
+    "xgb_subsample": 0.969122161835276
+}
