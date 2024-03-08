@@ -2,5 +2,5 @@
 *.tsv
 *.tfevents
 hms-harmful-brain-activity-classification/data/
-playground-series-s4e01/notebooks/catboost_info
-playground-series-s4e02/notebooks/AutogluonModels
+*catboost_info*
+*AutogluonModels*
